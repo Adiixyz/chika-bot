@@ -35,11 +35,7 @@ Daftar hadis:
 
 exports.groupBot = (sender) => {
     return `
-Link Group Chika Fenst : https://chat.whatsapp.com/HLU6B1Mw34QBMUoXAyhec0
-Link Group Chika Fenst V2 : https://chat.whatsapp.com/IwGkynIvQAk1J6wQVDLeFC
-
-
-Jangan lupa join ya kak @${sender.split('@')[0]}`
+gada`
 }
 
 exports.BlockBan = (ownerNumber, prefix) => {
@@ -47,11 +43,11 @@ exports.BlockBan = (ownerNumber, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `Command ini khusus Owner-sama!`
+    return `Command ini khusus Owner-adyy!`
 }
 
 exports.doneOwner = () => {
-    return `Sudah selesai, Owner-sama~`
+    return `Sudah selesai, Owner-adyy~`
 }
 
 exports.groupOnly = () => {
@@ -172,42 +168,37 @@ exports.notNum = (q) => {
 }
 
 exports.menu = (prefix, ucap, pushname2, jumlahUser, timebot, owner, jumlahHarian, jumlahCommand, sender, time, public, levelMenu, xpMenu, reqXp, uangku, role, Limitnya) => {
-    return `\`\`\`Selamat ${ucap} Kak @${sender.split('@')[0]} 😳\`\`\`
+    return `\`\`\`Selamat ${ucap} @${sender.split('@')[0]}\`\`\`
 
 ╭── 「 *BOT INFO* 」 ──
 │
-│❒͡  _*CHIKA BOT*_ 
-│❒͡ *Contact My Owner*
-│ *https://wa.me/${owner}*
-│❒͡ *Time: ${time}*
-│❒͡ *STATUS* :「 ${public} 」
+│⭔ Adyy Bot
+│⭔ Contact My Owner
+│ wa.me/60199782326
+│⭔ Time : ${time}
+│⭔ Mode : Always Public
+│⭔ SC Bot : https://google.com
 │
-╰── 「 *CHIKA BOT* 」 ──
+╰── 「 *ADYY BOT* 」 ──
 
 ❉──────────────────❉  
 *Name* : *${pushname2}* 
 *Your API* : *https://wa.me/${sender.split('@')[0]}*
 *Limit* : *${Limitnya}*
-
-
-*Your Progress*:
 *Level: ${levelMenu}*
 *XP: ${xpMenu} / ${reqXp}*
 *Role: ${role}*
 *Your Balance: $${uangku}*
 ❉──────────────────❉  
 
-*── 「 BOT STATUS 」 ──*
-
- ❏ *${timebot}*
-
- 𒍮 *Auto-Regis User: ${jumlahUser}*
-
- 𒍮 *Total Hit Bot : ${jumlahCommand}*
-
- 𒍮 *Total Hit Today : ${jumlahHarian}*
-
-*── 「 CHIKA BOT 」 ──*
+╭── 「 *BOT STATUS* 」 ──
+│
+│⭔ *${timebot}*
+│⭔ *Auto-Regis User: ${jumlahUser}*
+│⭔ *Total Hit Bot : ${jumlahCommand}*
+│⭔ *Total Hit Today : ${jumlahHarian}*
+│
+╰── 「 *ADYY BOT* 」 ──
 
 
 *Official BOT By @0*`
@@ -300,7 +291,7 @@ exports.menuNsfw = (prefix) => {
 exports.menuOwner = (prefix) => {
     return `
 *── 「 OWNER MENU 」 ──*
-Halo Owner-sama ヽ(・∀・)ﾉ!
+Halo Owner-adyy ヽ(・∀・)ﾉ!
    `
 }
 
@@ -341,15 +332,13 @@ exports.menuPrice = (owner, pushname) => {
  
 *Hai kak  ${pushname}*
 *Harga Sewa Bot*
-*15K/Group Selama 1 Bulan*
+*FREE/Group Selama 1 Bulan*
 
 *Pembayaran Bisa Melalui Metode Pembayaran di Bawah:*
-*OVO/Dana/Gopay = ${owner}*
-*QRis yang dilampirkan*
-*PAYPAL = rashidsiregar28@gmail.com*
+FREE SEMUANYA TODD
 
 *_note_*:
-*Jika kalian ingin menjadi owner bot,bisa chat owner untuk price nya :D*
+*Jika kalian ingin menjadi owner bot,bisa chat owner :D*
 *wa.me/${owner} (Owner)*
 
     `
@@ -359,19 +348,17 @@ exports.UpToPremi = (ownerNumber, prefix) => {
     return `
 *── 「 UPGRADE PREMIUM 」 ──*
 
-*Tarif Premium User adalah 10K Perbulan*
-*Keuntungan Premium Diantaranya:*
+*Tarif Premium User adalah GERATISH Perbulan*
+*Keuntungan Premium:*
 ♲ *Bebas memakai fitur premium*
 ♲ *Dapat Informasi Lebih dulu akan Update, Nomor Bot Baru (Jika Terbanned), dan Lainnya*
 
 *Jika Tertarik,Kalian Bisa Bayar Melalui Metode Pembayaran di Bawah:*
-*OVO/Dana/Gopay = ${ownerNumber}*
-*Qris pada gambar diatas*
-*PAYPAL = rashidsiregar28@gmail.com*
+CHAT OWNER
 
 *Info Lebih Lengkap Chat Owner, Ketik ${prefix}owner
 *_note_*:
-*Pembelian Premium yang disertai SewaBot hanya akan membayar 20K (Diskon 5K)*
+*Pembelian Premium yang disertai SewaBot hanya akan membayar GRATIS*
 
     `
 }
@@ -399,14 +386,11 @@ exports.tos = (ownerNumber, prefix) => {
 *── 「 DONATE 」 ──*
 
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-08127668234 (OVO/Telkomsel/GoPay)
-
+60199782326 (PULSA/GOPAY)
 
 Terima kasih!
 
 Contact person Owner:
 wa.me/${ownerNumber} (Owner)
-
-Untuk melihat script yang bot gunakan,ketik ${prefix}sc
     `
 }
